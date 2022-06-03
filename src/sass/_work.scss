@@ -1,0 +1,48 @@
+.how-it-work {
+    padding: 117px;
+    background-color: #161F49;
+}
+
+.how-it-work__title {
+    margin-bottom: 44px;
+
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+    color: #ffffff;
+}
+
+.how-it-work__text {
+    margin-bottom: 38px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn__how-it-work {
+    display: block;
+    margin: 0 auto;
+    padding: 17px 43px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+
+    background-color: #2468FF;
+
+    border: none;
+    
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        color: #ffffff;
+    }
+}
