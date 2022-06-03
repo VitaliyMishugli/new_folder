@@ -11,3 +11,38 @@
 //     max-width: 928px;
 //     max-height: 747px;
 // }
+.amazon__uppertitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.15;
+
+    text-align: center;
+    color: #404040;
+}
+
+.amazon__suptitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.15;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #404040;
+}
+
+.amazon__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.20;
+
+    text-align: center;
+
+    color: #404040;
+}
