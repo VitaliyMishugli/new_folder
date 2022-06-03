@@ -53,6 +53,8 @@
 }
 
 .amazon__description {
+    display: inline-block;
+    max-width: 736px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
