@@ -22,6 +22,11 @@
     color: #404040;
 }
 
+.amazon__link {
+    display: block;
+    text-align: center;
+}
+
 .amazon__suptitle {
     font-family: 'Roboto';
     font-style: normal;
@@ -41,6 +46,18 @@
     font-weight: 400;
     font-size: 50px;
     line-height: 1.20;
+
+    text-align: center;
+
+    color: #404040;
+}
+
+.amazon__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.40;
 
     text-align: center;
 
