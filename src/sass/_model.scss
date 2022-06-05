@@ -1,0 +1,142 @@
+// ***** Model *****
+
+h2 {
+    margin: 0;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.model {
+    padding-top: 68px;
+    padding-bottom: 108px;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.model_title {
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+    color: #404040;
+}
+
+.filter {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.filter_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+            content: "";
+            display: block;
+            margin-left: 6px;
+            margin-right: 6px;
+            height: 1px;
+            width: 36px;
+            background-color: #999999;
+        }
+}
+
+.filter_item:first-child::before {
+    display: none;
+}
+
+.filter_btn {
+    color: #FFFFFF;
+    background-color: #999999;
+    border: none;
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+            background-color: #00B68C;
+            box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 4px #00B68C;
+    
+        }
+}
+
+.model_img {
+    display: block;
+    margin-bottom: 58px;
+}
+
+.model_choice {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.model_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.16;
+    text-align: center;
+    color: #404040;
+
+    &:first-child {
+            margin-right: 14px;
+        }
+}
+
+.model-size {
+    display: flex;
+}
+
+.model-size_item {
+    margin-right: 14px;
+    display: block;
+    padding: 16px 26px 15px 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.38;
+    text-align: center;
+    color: rgba(64, 64, 64, 0.3);
+    border: 2px solid rgba(64, 64, 64, 0.3);
+}
+
+.model_btn {
+    padding-top: 19px;
+    padding-left: 92px;
+    padding-bottom: 19px;
+    padding-right: 92px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+
+    text-align: center;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+    background-color: #999999;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+    background-color: #00B68C;
+    box-shadow: 0px 0px 0px 4px #00b68c inset, 0px 0px 0px 6px #fff inset;
+}
+}
