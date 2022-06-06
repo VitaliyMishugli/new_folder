@@ -1,11 +1,48 @@
+.modal__cross {
+    fill: currentColor;
+
+    transition: color 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        transform 550ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    &:hover,
+    &:focus {
+        color: #2468FF;
+        transform: rotate(90deg);
+    }    
+}
+
+.modal--how-it-work {
+    width: 70%;
+    height: 70%;
+    color: #ffffff;
+    background-color: #479ffe;
+    background-image: linear-gradient(to right top, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+
+.modal__title--how-it-work {
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.modal__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
+    color: #ffffff;
+}
+
 .how-it-work {
-    padding: 117px;
+    padding: 117px 0;
     background-color: #161F49;
 }
 
 .how-it-work__title {
     margin-bottom: 44px;
-
     font-weight: 400;
     font-size: 50px;
     line-height: 1.2;
@@ -15,7 +52,6 @@
 
 .how-it-work__text {
     margin-bottom: 38px;
-
     font-weight: 400;
     font-size: 18px;
     line-height: 1.4;
@@ -23,26 +59,246 @@
     color: #ffffff;
 }
 
-.btn__how-it-work {
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
+.btn--blue {
+    position: relative;
+
     display: block;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
     padding: 17px 43px;
 
     font-weight: 700;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.0;
     text-align: center;
     letter-spacing: 0.11px;
     text-transform: uppercase;
+<<<<<<< Updated upstream
+=======
 
+>>>>>>> Stashed changes
+    color: #ffffff;
     background-color: #2468FF;
 
-    border: none;
-    
-    cursor: pointer;
+    transition: color 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
+    border: none;
+<<<<<<< Updated upstream
+=======
+
+    overflow: hidden;
+
+    cursor: pointer;
+>>>>>>> Stashed changes
+
+    overflow: hidden;
+
+    cursor: pointer;
+    
     &:hover,
-    &:focus {
-        color: #ffffff;
+    &:focus,
+    &:hover::before,
+    &:focus::before,
+    &:hover::after,
+    &:focus::after {
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+        transform: translate(0);
+<<<<<<< Updated upstream
     }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 1px;
+
+        background-color: #ffffff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+                0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+
+        transform: translate(-100%);
+        transition: transform 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    }
+
+=======
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 1px;
+
+        background-color: #ffffff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+                0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+
+        transform: translate(-100%);
+        transition: transform 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    }
+
+>>>>>>> Stashed changes
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: 1px;
+
+        background-color: #ffffff;
+        box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.12),
+                0px -1px 1px rgba(0, 0, 0, 0.14),
+                0px -2px 1px rgba(0, 0, 0, 0.2);
+
+        transform: translate(100%);
+        transition: transform 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+}
+
+
+.how-it-work__img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+<<<<<<< Updated upstream
+=======
+} 
+
+// Cloud
+#background-wrap {
+    bottom: 0;
+    left: 0;
+    padding-top: 50px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    animation: animateCloud 35s linear infinite;
+
+    transform: scale(0.65);
+}
+
+.x2 {
+    animation: animateCloud 20s linear infinite;
+
+    transform: scale(0.3);
+}
+
+.x3 {
+    animation: animateCloud 30s linear infinite;
+
+    transform: scale(0.5);
+}
+
+.x4 {
+    animation: animateCloud 18s linear infinite;
+
+    transform: scale(0.4);
+}
+
+.x5 {
+    animation: animateCloud 25s linear infinite;
+
+    transform: scale(0.55);
+}
+
+/* OBJECTS */
+
+.cloud {
+    background: #fff;
+    background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#f1f1f1', GradientType=0);
+
+    border-radius: 100px;
+
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+    height: 120px;
+    position: relative;
+    width: 350px;
+
+    opacity: 0.7;
+}
+
+.cloud:after,
+.cloud:before {
+    background: #fff;
+    content: '';
+    position: absolute;
+    z-indeX: -1;
+}
+
+.cloud:after {
+    border-radius: 100px;
+
+    height: 100px;
+    left: 50px;
+    top: -50px;
+    width: 100px;
+}
+
+.cloud:before {
+    border-radius: 200px;
+
+    width: 180px;
+    height: 180px;
+    right: 50px;
+    top: -90px;
+>>>>>>> Stashed changes
 }
